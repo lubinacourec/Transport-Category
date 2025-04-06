@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+<!-- RIMANUTS 2 PATCHES -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="RimNauts2_PodLauncher"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>VF_Vehicles</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="RimNauts2_TransportPod_Cargo"]</xpath>
+                    <value>
+                        <designationCategory>VF_Vehicles</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="RimNauts2_DeliveryCannon"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>VF_Vehicles</designationCategory>
+                    </value>
+                </Operation>
+</Patch>

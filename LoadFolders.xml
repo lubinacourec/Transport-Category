@@ -1,0 +1,12 @@
+<loadFolders>
+  <v1.4>
+    <li>/</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">Mods and Shit/Royalty</li>
+    <li IfModActive="sindre0830.rimnauts2">Mods and Shit/Rimnauts 2</li>
+  </v1.4>
+  <v1.5>
+    <li>/</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">Mods and Shit/Royalty</li>
+    <li IfModActive="sindre0830.rimnauts2">Mods and Shit/Rimnauts 2</li>
+  </v1.5>
+</loadFolders>

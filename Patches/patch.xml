@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+<!-- VEHICLES PATCHES -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/DesignationCategoryDef[defName="VF_Vehicles"]/label</xpath>
+                    <value>
+                        <label>Transport</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/DesignationCategoryDef[defName="VF_Vehicles"]/label</xpath>
+                    <value>
+                        <label>Transport</label>
+                    </value>
+                </Operation>
+<!-- CORE PATCHES -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="TransportPod"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>VF_Vehicles</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="PodLauncher"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>VF_Vehicles</designationCategory>
+                    </value>
+                </Operation>
+</Patch>
