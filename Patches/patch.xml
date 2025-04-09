@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>              
+<!-- ROAD ZONES -->
+                <Operation Class = "PatchOperationAdd">
+                    <xpath>Defs/DesignationCategoryDef[defName = "VF_Vehicles"]/specialDesignatorClasses</xpath>
+                    <value>
+                        <li>Vehicles.Designator_AreaRoadExpand</li>
+                        <li>Vehicles.Designator_AreaRoadClear</li>
+                    </value>
+                </Operation>
+
 <!-- VEHICLES PATCHES -->
                 <Operation Class="PatchOperationReplace">
                     <success>Always</success>
